@@ -1,0 +1,5 @@
+while read line           
+do
+	command="yowsup-cli demos -s $line \"$1\" -c config.file"  
+	eval $command
+done
